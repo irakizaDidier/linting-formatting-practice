@@ -5,8 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class UserService {
   private users = [
-    { name: 'John', age: 30 },
-    { name: 'Jane', age: 25 },
+    { name: 'John', age: 30, email: 'john@example.com' },
+    { name: 'Jane', age: 25, email: 'jane@example.com' },
   ];
 
   constructor() {}
@@ -15,7 +15,7 @@ export class UserService {
     return this.users;
   }
 
-  addUser(user: { name: string; age: number }) {
+  addUser(user: { name: string; age: number; email: string }) {
     this.users.push(user);
   }
 }

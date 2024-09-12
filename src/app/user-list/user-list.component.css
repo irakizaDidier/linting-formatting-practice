@@ -1,0 +1,21 @@
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  font-size: larger;
+}
+li:hover {
+  background-color: #e0e0e0;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}

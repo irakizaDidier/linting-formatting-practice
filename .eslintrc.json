@@ -9,7 +9,7 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates",
-        "plugin:prettier/recommended" // Integrate Prettier with ESLint
+        "plugin:prettier/recommended"
       ],
       "rules": {
         "@angular-eslint/directive-selector": [
@@ -28,7 +28,7 @@
             "style": "kebab-case"
           }
         ],
-        "prettier/prettier": "error" // Add Prettier as an ESLint rule
+        "prettier/prettier": "error"
       }
     },
     {
@@ -38,10 +38,9 @@
         "plugin:@angular-eslint/template/accessibility"
       ],
       "rules": {
-        // Template-specific rules
-        "@angular-eslint/template/no-negated-async": "error", // Example template rule
-        "quotes": ["error", "single"], // Enforce single quotes
-        "semi": ["error", "always"] // Enforce semicolons at the end of statements
+        "@angular-eslint/template/no-negated-async": "error",
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"]
       }
     }
   ]

@@ -6,30 +6,8 @@ import { UserService } from '../user.service';
   selector: 'app-user-list',
   standalone: true,
   imports: [CommonModule],
-  template: `
-    <ul>
-      <li *ngFor="let user of users" (click)="selectUser(user)">
-        {{ user.name }} ({{ user.age }})
-      </li>
-    </ul>
-  `,
-  styles: [
-    `
-      ul {
-        list-style-type: none;
-        padding: 0;
-      }
-      li {
-        margin-bottom: 10px;
-        cursor: pointer;
-        background-color: #f0f0f0;
-        padding: 5px;
-      }
-      li:hover {
-        background-color: #e0e0e0;
-      }
-    `,
-  ],
+  styleUrls: ['./user-list.component.css'],
+  templateUrl: './user-list.component.html',
 })
 export class UserListComponent implements OnInit {
   users: { name: string; age: number; email: string }[] | undefined;
