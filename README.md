@@ -1,5 +1,13 @@
 # LintingFormattingPractice
 
+## linting-formatting-practice fix
+
+npm run lint-fix
+
+## linting-formatting-practice run linit
+
+npm run lint
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
 ## Development server
