@@ -1,5 +1,9 @@
 # LintingFormattingPractice
 
+# Hosted link
+
+https://linting-formatting-practice-gray.vercel.app/
+
 ## linting-formatting-practice fix
 
 npm run lint-fix
